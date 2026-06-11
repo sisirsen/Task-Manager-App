@@ -45,10 +45,10 @@ This project helped in understanding:
 # Screenshots
 
 ![normalLook](assets/Readme/NormalLook.png)
-![normalLook](assets/Readme/WithFactBox.png)
-![normalLook](assets/Readme/NoInputError.png)
-![normalLook](assets/Readme/AddedValue.png)
-![normalLook](assets/Readme/FullPage.png)
+![WithFactBox](assets/Readme/WithFactBox.png)
+![noinputerror](assets/Readme/NoInputError.png)
+![addedvalue](assets/Readme/AddedValue.png)
+![fullpage](assets/Readme/FullPage.png)
 
 # Author
 
