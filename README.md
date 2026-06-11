@@ -46,11 +46,6 @@ This project helped in understanding:
 # Normal Look
 ![normalLook](assets/Readme/normalLook.png)
 
-![normalLook](assets/Readme/NormalLook.png)
-![WithFactBox](assets/Readme/WithFactBox.png)
-![noinputerror](assets/Readme/NoInputError.png)
-![addedvalue](assets/Readme/AddedValue.png)
-![fullpage](assets/Readme/FullPage.png)
 # Look with fact box
 ![WithFactBox](assets/Readme/withFactBox.png)
 
