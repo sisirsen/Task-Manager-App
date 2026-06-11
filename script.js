@@ -3,11 +3,10 @@ let btn=document.querySelector("#button");
 let lst=document.querySelector("#list");
 let fact=document.querySelector("#Fact")
 
-const loadTask= () =>{
+const loadTask = () =>{
   const data=localStorage.getItem("task")
   if (data) {
-    lst.innerHTML=data
-    
+    lst.innerHTML= data
   }
 }
 loadTask()
@@ -16,6 +15,8 @@ const saveTasks = ()=>{
   localStorage.setItem("task", lst.innerHTML)
 }
 saveTasks()
+
+
 // Add button
 btn.addEventListener("click",()=>{
 let val=input.value.trim()
@@ -27,14 +28,11 @@ let val=input.value.trim()
     <p class="error-msg flex justify-center mt-5 bg-red-500 text-white font-bold p-2 rounded-lg">
     ⚠️ There is no input !
     </p>`);
-    return;
-    saveTasks()
+  return;
 }
 
-   document.querySelector(".error-msg")?.remove();
+    document.querySelector(".error-msg")?.remove();
     
-
-
     lst.insertAdjacentHTML("afterbegin",`
       
       <li class="flex break-all items-center justify-between bg-gray-200 px-3 py-1 rounded-lg mb-2 mt-5 shadow-sm text-lg font-bold font-[] text-blue-800">
@@ -54,8 +52,7 @@ let val=input.value.trim()
       </button>
       </div>
       
-      </li>
-      
+      </li>     
       `)
     
     
@@ -69,7 +66,7 @@ let val=input.value.trim()
 
         saveTasks()
       }
-    })
+  })
 
     lst.addEventListener("click",(e)=>{
       if(e.target.classList.contains("markDone")){
@@ -78,14 +75,14 @@ let val=input.value.trim()
 
         saveTasks()
       }
-    })
+  })
 
 
     input.addEventListener("keypress",(e)=>{
         if (e.key=="Enter") {
           btn.click();
         }
-    })
+  })
     
   async function facts() {
   try {
